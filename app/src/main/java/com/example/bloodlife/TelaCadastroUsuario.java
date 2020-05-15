@@ -1,12 +1,12 @@
 package com.example.bloodlife;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.RadioGroup;
-
-import androidx.appcompat.app.AppCompatActivity;
 
 import java.io.IOException;
 
@@ -15,7 +15,7 @@ public class TelaCadastroUsuario extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_tela_cadastro_usuario);
+        setContentView(R.layout.activity_tela_cadastro_doador);
     }
 
     public void TelaInicial(View view) throws IOException {

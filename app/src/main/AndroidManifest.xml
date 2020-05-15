@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Perfil_Hemocentro"></activity>
+        <activity android:name=".Localizacao"></activity>
+        <activity android:name=".Ranking" />
+        <activity android:name=".Conquista" />
+        <activity android:name=".Notificacao" />
+        <activity android:name=".Perfil_Hemocentro" />
         <activity android:name=".TelaInstrucoes" />
         <activity android:name=".CadastroHemocentro" />
         <activity android:name=".EscolhaCadastro" />

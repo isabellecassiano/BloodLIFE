@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">BloodLIFE</string>
     <string name="botaoLogin">Login</string>
-    <string name="textBlood">Blood</string>
+    <string name="textBlood">BLOOD</string>
     <string name="botaoCadastro">Criar Nova Conta</string>
     <string name="editNome">Usuário</string>
     <string name="editSenha">Senha</string>

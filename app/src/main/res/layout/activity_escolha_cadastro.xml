@@ -4,34 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#CF4242"
+    android:background="#111111"
     tools:context=".EscolhaCadastro">
-
-    <TextView
-        android:id="@+id/textEscolha"
-        android:layout_width="357dp"
-        android:layout_height="42dp"
-        android:text="Como Deseja"
-        android:textColor="#FFFFFF"
-        android:textSize="30sp"
-        android:textStyle="bold"
-        app:fontFamily="@font/press_start_2p"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.703"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.365" />
 
     <Button
         android:id="@+id/botaoUsuario"
-        android:layout_width="293dp"
-        android:layout_height="71dp"
+        android:layout_width="161dp"
+        android:layout_height="62dp"
         android:background="#FFFFFF"
         android:onClick="TelaCadastro"
-        android:text="Usuário Comum"
+        android:text="Doador"
         android:textAllCaps="true"
-        android:textColor="#CF4242"
+        android:textColor="#bf2217"
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -42,11 +26,12 @@
 
     <Button
         android:id="@+id/botaoHemocentro"
-        android:layout_width="296dp"
+        android:layout_width="238dp"
         android:layout_height="72dp"
-        android:background="#202020"
+        android:background="#bf2217"
         android:onClick="TelaCadastroHemocentro"
         android:text="Hemocentro"
+        android:textAllCaps="true"
         android:textColor="#FFFFFF"
         android:textSize="30sp"
         android:textStyle="bold"
@@ -65,7 +50,7 @@
         android:textColor="#FFFFFF"
         android:textSize="24sp"
         android:textStyle="bold"
-        app:fontFamily="@font/press_start_2p"
+        app:fontFamily="sans-serif"
         app:layout_constraintBottom_toTopOf="@+id/botaoHemocentro"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -73,16 +58,44 @@
 
     <TextView
         android:id="@+id/textDeseja"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="296dp"
+        android:layout_height="92dp"
         android:text="se Cadastrar?"
-        android:textColor="#202020"
-        android:textSize="24sp"
-        app:fontFamily="@font/press_start_2p"
+        android:textColor="#bf2217"
+        android:textSize="66sp"
+        app:fontFamily="@font/great_vibes"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintHorizontal_bias="0.756"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textEscolha"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.353" />
+
+    <TextView
+        android:id="@+id/textEscolha"
+        android:layout_width="233dp"
+        android:layout_height="42dp"
+        android:text="COMO DESEJA"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:fontFamily="sans-serif"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.331"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.284" />
+
+    <ImageView
+        android:id="@+id/logoBloolife"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.066"
+        tools:srcCompat="@tools:sample/avatars" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -4,112 +4,54 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#CF4242"
+    android:background="#111111"
     tools:context=".TelaInstrucoes">
 
     <TextView
         android:id="@+id/textInstrucoes"
-        android:layout_width="367dp"
-        android:layout_height="59dp"
+        android:layout_width="373dp"
+        android:layout_height="65dp"
         android:text="Instruções para Doar Sangue"
-        android:textColor="#202020"
-        android:textSize="24sp"
-        app:fontFamily="@font/press_start_2p"
+        android:textColor="#bf2217"
+        android:textSize="36sp"
+        app:fontFamily="@font/great_vibes"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.53"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.053" />
+        app:layout_constraintVertical_bias="0.093" />
 
     <Button
         android:id="@+id/botaoDoar"
-        android:layout_width="187dp"
-        android:layout_height="67dp"
-        android:background="#202020"
+        android:layout_width="125dp"
+        android:layout_height="50dp"
+        android:background="#bf2217"
         android:text="DOAR"
-        android:textColor="#CF4242"
+        android:textColor="#ffffff"
         android:textSize="36sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.96" />
+        app:layout_constraintVertical_bias="0.902" />
 
     <TextView
         android:id="@+id/texto1"
         android:layout_width="321dp"
         android:layout_height="32dp"
         android:text="Pesar no Minímo 56 Kg ;"
+        android:textAllCaps="false"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
         android:textStyle="bold|italic"
+        app:fontFamily="sans-serif"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.755"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.183" />
-
-    <TextView
-        android:id="@+id/texto2"
-        android:layout_width="323dp"
-        android:layout_height="103dp"
-        android:text="Ter entre 16 e 69 anos, Idosos acima de 60 anos só podem efetuar a doação se já tiverem doado alguma vez na vida ;"
-        android:textColor="#FFFFFF"
-        android:textSize="20sp"
-        android:textStyle="bold|italic"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.772"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/texto1"
-        app:layout_constraintVertical_bias="0.027" />
-
-    <TextView
-        android:id="@+id/texto3"
-        android:layout_width="324dp"
-        android:layout_height="55dp"
-        android:text="Ter dormido ao menos 6 horas nas últimas 24 horas ;"
-        android:textColor="#FFFFFF"
-        android:textSize="20sp"
-        android:textStyle="bold|italic"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.781"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/texto2"
-        app:layout_constraintVertical_bias="0.04000002" />
-
-    <TextView
-        android:id="@+id/texto4"
-        android:layout_width="322dp"
-        android:layout_height="81dp"
-        android:text="Estar bem Alimentado e Evitar alimentos Gordurosos antes da Doação ;"
-        android:textColor="#FFFFFF"
-        android:textSize="20sp"
-        android:textStyle="bold|italic"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.764"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/texto3"
-        app:layout_constraintVertical_bias="0.050000012" />
-
-    <TextView
-        android:id="@+id/texto5"
-        android:layout_width="323dp"
-        android:layout_height="57dp"
-        android:text="Apresentar um Documento Original com Foto ;"
-        android:textColor="#FFFFFF"
-        android:textSize="20sp"
-        android:textStyle="bold|italic"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.784"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/texto4"
-        app:layout_constraintVertical_bias="0.050000012" />
+        app:layout_constraintVertical_bias="0.228" />
 
     <TextView
         android:id="@+id/texto6"
@@ -119,10 +61,74 @@
         android:textColor="#FFFFFF"
         android:textSize="20sp"
         android:textStyle="bold|italic"
+        app:fontFamily="sans-serif"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.813"
+        app:layout_constraintHorizontal_bias="0.523"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/texto5"
-        app:layout_constraintVertical_bias="0.065" />
+        app:layout_constraintVertical_bias="0.00999999" />
+
+    <TextView
+        android:id="@+id/texto5"
+        android:layout_width="323dp"
+        android:layout_height="57dp"
+        android:text="Apresentar um Documento Original com Foto ;"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:fontFamily="sans-serif"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/texto4"
+        app:layout_constraintVertical_bias="0.00999999" />
+
+    <TextView
+        android:id="@+id/texto4"
+        android:layout_width="322dp"
+        android:layout_height="81dp"
+        android:text="Estar bem Alimentado e Evitar alimentos Gordurosos antes da Doação ;"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:fontFamily="sans-serif"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/texto3"
+        app:layout_constraintVertical_bias="0.00999999" />
+
+    <TextView
+        android:id="@+id/texto3"
+        android:layout_width="324dp"
+        android:layout_height="55dp"
+        android:text="Ter dormido ao menos 6 horas nas últimas 24 horas ;"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:fontFamily="sans-serif"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/texto2"
+        app:layout_constraintVertical_bias="0.00999999" />
+
+    <TextView
+        android:id="@+id/texto2"
+        android:layout_width="323dp"
+        android:layout_height="103dp"
+        android:text="Ter entre 16 e 69 anos, Idosos acima de 60 anos só podem efetuar a doação se já tiverem doado alguma vez na vida ;"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:fontFamily="sans-serif"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/texto1"
+        app:layout_constraintVertical_bias="0.00999999" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

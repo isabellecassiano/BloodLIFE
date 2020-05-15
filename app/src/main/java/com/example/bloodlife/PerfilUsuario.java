@@ -13,12 +13,12 @@ public class PerfilUsuario extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_tela_perfil_usuario);
+        setContentView(R.layout.activity_tela_perfil_doador);
 
         Intent intent = getIntent();
         Bundle bundle = intent.getExtras();
         String nome = bundle.getString("nomeUsuario");
-        TextView campoUsuario = findViewById(R.id.textUsuario);
+        TextView campoUsuario = findViewById(R.id.textDoador);
         campoUsuario.setText(nome);
 
         String senha = bundle.getString("senhaUsuario");
